@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem;
+  background: url('https://source.unsplash.com/1600x600/?hotel') no-repeat center center/cover;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.booking {
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.booking form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking input,
+.booking button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.booking button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+}
+
